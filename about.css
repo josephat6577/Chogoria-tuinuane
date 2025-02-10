@@ -1,0 +1,325 @@
+body{
+    margin: 0;
+    background-color:rgb(230, 201, 202);
+    margin-bottom: 50px;
+
+}
+
+main{
+    position: relative;
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+*{
+    text-decoration: none;
+
+}
+
+.navbar{
+    border: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-width: 2px;
+    text-align: center;
+    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    position:sticky;
+    top:0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+    z-index: 1000;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+    
+
+.navdiv{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+#logopic{
+    height: 50px;
+    width: 50px;
+    float:inline-start;
+    filter:brightness(120%);
+  
+   
+}
+
+.logo a{
+    font-size: 15px;
+    font-weight: 600;
+    color: aliceblue;
+    position: relative;
+    top: 15px;
+    text-shadow: 1px 1px 0px  grey;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+li a{
+    color: aliceblue;
+    font-size: 12px;
+    font-family: "Rubik Glitch", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    
+}
+li a:hover{
+    text-decoration: underline;
+    text-decoration-color: gray
+}
+li a:active{
+    text-decoration: underline;
+    text-decoration-color: grey;
+}
+.logo a:hover{
+    text-shadow: 1px 1px 0px  grey;
+    
+}
+.logo a:active{
+    text-shadow: 0px 0px 0px  grey;
+}
+
+#intro{
+    border: none;
+    font-size: 15px;
+    width: 100px;
+    position: relative;
+    top: 25px;
+    left: 40px;
+    text-align: center;
+    text-decoration: underline double;
+
+}
+
+#info{
+    border: solid;
+    font-size: 15px;
+    width: 300px;
+    height: 355px;
+    position: relative;
+    top: 25px;
+    left: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    border-width: 8px;
+    border-left-color: fuchsia ;
+    border-right-color: cyan;
+    border-top-color: green;
+    border-bottom-color: lime;
+    text-align: center;
+
+}
+
+#Motto{
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    top: 40px;
+    left: 400px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: bold;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+
+
+}
+
+#Mottodetails{
+    border: none;
+    font-size: 15px;
+    position: absolute;
+    top: 75px;
+    left: 400px;
+    width: 200px;
+    text-align: center;
+    font-family: "Abel", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom-style: dashed;
+    border-left-style: dashed;
+}
+
+#Mission{
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    top: 130px;
+    left: 400px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: bold;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+}
+
+#Missiondetails{
+    border: none;
+    font-size: 15px;
+    position: absolute;
+    top: 170px;
+    left: 400px;
+    width: 200px;
+    text-align: center;
+    border-left-style: dashed;
+    text-align: left;
+    padding-left: 10px;
+    font-family: "Abel", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom-style: dashed;
+
+}
+
+#Vision{
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    top: 310px;
+    left: 400px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: "Rubik Vinyl", serif;
+    font-weight: bold;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+    
+
+}
+
+#visiondetails{
+    border: none;
+    font-size: 15px;
+    position: absolute;
+    top: 340px;
+    left: 400px;
+    width: 200px;
+    text-align: center;
+    border-left-style: dashed;
+    text-align: left;
+    padding-left: 10px;
+    font-family: "Abel", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-bottom-style: dashed;
+
+}
+
+#thanks{
+    border: none;
+    font-size: 15px;
+    position: absolute;
+    top: 460px;
+    left: 40px;
+    width: 200px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+    border-radius: 8px;
+    
+}
+
+#thanksdetails{
+    border: none;
+    font-size: 15px;
+    position: absolute;
+    top: 480px;
+    left: 40px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-family: "Abel", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 0px;
+}
+
+#credits{
+    border: none;
+    font-size: 10px;
+    position: absolute;
+    top: 630px;
+    left: 420px;
+    width: 200px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+    border-radius: 8px;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#contact{
+    border: none;
+    font-size: 10px;
+    position: absolute;
+    top: 560px;
+    left: 470px;
+    width: 80px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+    border-radius: 8px;
+}
+
+#contactdetails{
+    border: none;
+    font-size: 10px;
+    position: absolute;
+    top: 580px;
+    left: 410px;
+    width: 200px;
+    height: 100px;
+    margin-left: 0;
+    color: #000000;
+    
+
+
+}
+#contactdetails li, #contactdetails a {
+    color: black; 
+    font-family: "Abel", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+#box1{
+    border: none;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    left: 9%;
+    
+}

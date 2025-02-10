@@ -1,0 +1,241 @@
+body{
+    margin: 0;
+    background-color:rgb(230, 201, 202);
+    margin-bottom: 50px;
+
+}
+
+main{
+    position: relative;
+}
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+*{
+    text-decoration: none;
+
+}
+
+.navbar{
+    border: solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-width: 2px;
+    text-align: center;
+    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    position:sticky;
+    top:0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+    z-index: 1000;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+    
+
+.navdiv{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+#logopic{
+    height: 50px;
+    width: 50px;
+    float:inline-start;
+    filter:brightness(120%);
+  
+   
+}
+
+.logo a{
+    font-size: 15px;
+    font-weight: 600;
+    color: aliceblue;
+    position: relative;
+    top: 15px;
+    text-shadow: 1px 1px 0px  grey;
+    color: white;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+li a{
+    color: aliceblue;
+    font-size: 12px;
+    font-family: "Rubik Glitch", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    
+}
+li a:hover{
+    text-decoration: underline;
+    text-decoration-color: pink;
+}
+li a:active{
+    text-decoration: underline;
+    text-decoration-color: pink;
+}
+.logo a:hover{
+    text-shadow: 1px 1px 0px  grey;
+    
+}
+.logo a:active{
+    text-shadow: 0px 0px 0px  grey;
+}
+
+
+#intro{
+    background: linear-gradient(to right, rgb(243, 137, 155), cyan);
+    background-repeat: no-repeat;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+    top: 30px;
+    text-align: center;
+    text-shadow: 0px 0cap 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#info{
+    border: none;
+    width: 400px;
+    height: 110px;
+    position: relative;
+    top:50px;
+    left:140px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    
+    
+}
+
+#done{
+    border-radius: 8px;
+    background:linear-gradient(to left,  rgb(243, 137, 155), cyan);
+    position: relative;
+    top: 40px;
+    left: 300px;
+    border-color :fuchsia;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: 3s linear 0s infinite running myscale;
+
+}
+#done:active{
+    border-color :fuchsia;
+
+}
+
+#done:hover{
+
+    
+    animation: 3s linear 0s infinite running mycolor;
+
+}
+
+@keyframes myscale{
+    50%{transform: scale(0.8, 0.8);}
+}
+
+#change{
+    border: solid;
+    border-radius: 8px;
+    background:linear-gradient(to left,  rgb(243, 137, 155), cyan);
+    position: relative;
+    top: 73.5px;
+    left: 200px;
+    width: 80px;
+    font-family: "Abel", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    text-align: center;
+ 
+}
+
+#credits{
+    border: none;
+    font-size: 10px;
+    position: absolute;
+    top: 290px;
+    left: 525px;
+    width: 200px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+    border-radius: 8px;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#contact{
+    border: none;
+    font-size: 10px;
+    position: absolute;
+    top: 230px;
+    left: 600px;
+    width: 80px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(to right, rgb(252, 147, 225), rgb(21, 188, 230));
+    border-radius: 8px;
+}
+
+#contactdetails{
+    border: none;
+    font-size: 10px;
+    position: absolute;
+    top: 250px;
+    left: 490px;
+    width: 200px;
+    height: 100px;
+    margin-left: 0;
+    color: #000000;
+  
+    
+
+
+}
+#contactdetails li, #contactdetails a {
+    color: black; 
+    font-family: "Abel", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+#box2{
+    border: none;
+    height: 100px;
+    width: 100px;
+    position:absolute;
+    left: 9%;
+    
+    
+}
